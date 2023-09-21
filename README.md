@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Quake Log API
 
-Things you may want to cover:
+## Descrição
+A Quake Log API é uma API que analisa e fornece relatórios de logs do jogo Quake 3 Arena. Ela é capaz de ler arquivos de log do jogo, extrair informações sobre partidas e criar relatórios de pontuação e causas de morte.
 
-* Ruby version
+## Requisitos
+- Ruby 2.7.3
+- Ruby on Rails 6.1
+- Banco de dados (por exemplo, SQLite, PostgreSQL)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Configuração do Projeto
+1. Clone o repositório:
+   ```shell
+   git clone https://github.com/seu-usuario/quake-log-api.git
+   - cd quake-log-api
+   - bundle install
+   - rails db:migrate
+   - rails server
